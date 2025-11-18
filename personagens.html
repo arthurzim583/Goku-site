@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dragon Ball Wiki - Personagens</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #e67300;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+
+    .logo {
+      height: 100px;
+    }
+
+    nav {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .titulo {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .titulo img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    .personagens {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      text-align: center;
+      width: 200px; /* ligeiro ajuste para acomodar imagens padronizadas */
+    }
+
+    /* Contêiner com tamanho fixo para padronizar todos os renders */
+    .card .img-box {
+      width: 200px;
+      height: 260px;           /* altura fixa para igualar a presença visual */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .card img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;     /* evita distorção e mantém proporção */
+      display: block;
+    }
+
+    .card button {
+      margin-top: 10px;
+      background-color: #e67300;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .card button:hover {
+      background-color: #cc6600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/ccpST4JS/Copilot-20251118-092446.png" alt="Logo Dragon Ball" class="logo">
+    <nav>
+      <a href="personagens.html">Personagens</a>
+      <a href="universos.html">Universos e Arcos</a>
+      <a href="tecnicas.html">Golpes e Técnicas</a>
+      <a href="racas.html">Raças e Origens</a>
+      <a href="jogos.html">Principais Jogos</a>
+    </nav>
+  </header>
+
+  <div class="titulo">
+    <!-- Removi o primeiro <img> sem alt e mantive o título válido -->
+    <img src="https://i.ibb.co/n4whDxM/BCO-cb806270-af9e-4367-8ff1-30e63a4a72dd.png" alt="Título Personagens">
+  </div>
+
+  <section class="personagens">
+    <div class="card">
+      <div class="img-box">
+        <img src="https://i.ibb.co/Csw28Y0H/Goku-render.png" alt="Son Goku">
+      </div>
+      <button onclick="location.href='goku.html'">SON GOKU</button>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="https://i.ibb.co/TqDZRbkC/Vegeta-manga.png" alt="Vegeta">
+      </div>
+      <button onclick="location.href='vegeta.html'">VEGETA</button>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="https://i.ibb.co/FkKg3c2f/Gohan-Super-Hero.webp" alt="Gohan">
+      </div>
+      <button onclick="location.href='gohan.html'">GOHAN</button>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="https://i.ibb.co/Qv7W77b5/Piccolo.webp" alt="Piccolo">
+      </div>
+      <button onclick="location.href='piccolo.html'">PICCOLO</button>
+    </div>
+
+    <div class="card">
+      <div class="img-box">
+        <img src="https://i.ibb.co/0VmXqZ7H/52be03a6fccd4b7bd1642782f93d7eaf-removebg-preview.png" alt="Freeza">
+      </div>
+      <button onclick="location.href='freeza.html'">FREEZA</button>
+    </div>
+  </section>
+
+</body>
+</html>
