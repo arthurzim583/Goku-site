@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Dragon Ball Wiki - Personagens</title>
+  <title>Dragon Ball Wiki - Principais Arcos</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f5f5;
+      background-color: #ffffff;
     }
 
     header {
@@ -43,42 +43,31 @@
 
     .titulo {
       text-align: center;
-      margin: 30px 0;
+      margin: 40px 0 20px;
       font-size: 24px;
       font-weight: bold;
       color: #e67300;
     }
 
-    .personagens {
+    .arcos {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       gap: 40px;
-      padding: 40px 20px;
+      padding: 20px 40px 60px;
     }
 
     .card {
       text-align: center;
-      width: 200px; 
-    }
-
-    .card .img-box {
-      width: 200px;
-      height: 260px;          
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-      overflow: hidden;
+      width: 250px;
     }
 
     .card img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;     
-      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
 
     .card button {
@@ -112,42 +101,20 @@
     </nav>
   </header>
 
-  <div class="titulo">PERSONAGENS</div>
+  <div class="titulo">PRINCIPAIS ARCOS</div>
 
-  <section class="personagens">
+  <section class="arcos">
     <div class="card">
-      <div class="img-box">
-        <img src="https://i.ibb.co/Csw28Y0H/Goku-render.png" alt="Son Goku">
-      </div>
-      <button onclick="location.href='goku.html'">SON GOKU</button>
+      <img src="https://i.ibb.co/PGHh17QT/3642167.jpg" alt="Dragon Ball Clássico">
+      <button onclick="location.href='arco-classico.html'">Dragon Ball Clássico</button>
     </div>
-
     <div class="card">
-      <div class="img-box">
-        <img src="https://i.ibb.co/TqDZRbkC/Vegeta-manga.png" alt="Vegeta">
-      </div>
-      <button onclick="location.href='vegeta.html'">VEGETA</button>
+      <img src="https://i.ibb.co/xKM5t30h/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png" alt="Dragon Ball Z">
+      <button onclick="location.href='arco-z.html'">Dragon Ball Z</button>
     </div>
-
     <div class="card">
-      <div class="img-box">
-        <img src="https://i.ibb.co/Rxf9FX6/300px-DB-Cell-Perfection.webp" alt="Cell">
-      </div>
-      <button onclick="location.href='cell.html'">CELL</button>
-    </div>
-
-    <div class="card">
-      <div class="img-box">
-        <img src="https://i.ibb.co/Qv7W77b5/Piccolo.webp" alt="Piccolo">
-      </div>
-      <button onclick="location.href='piccolo.html'">PICCOLO</button>
-    </div>
-
-    <div class="card">
-      <div class="img-box">
-        <img src="https://i.ibb.co/0VmXqZ7H/52be03a6fccd4b7bd1642782f93d7eaf-removebg-preview.png" alt="Freeza">
-      </div>
-      <button onclick="location.href='freeza.html'">FREEZA</button>
+      <img src="https://i.ibb.co/27dnz20H/Dragon-Ball-Super-Key-visual.jpg" alt="Dragon Ball Super">
+      <button onclick="location.href='arco-super.html'">Dragon Ball Super</button>
     </div>
   </section>
 
